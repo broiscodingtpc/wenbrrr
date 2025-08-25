@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-background text-white;
+  background-image: linear-gradient(rgba(11, 15, 20, 0.75), rgba(11, 15, 20, 0.75)), url('https://gold-known-swallow-180.mypinata.cloud/ipfs/bafybeih6rn323l76vnomgaijj664aqlda243wht5puqqfs3mwz6kdw6vri');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.neon-border {
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.7), 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.7);
+}
+
+.card-3d {
+  width: 320px;
+  aspect-ratio: 1.586;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4), 0 0 30px rgba(0,229,255,0.15);
+  backdrop-filter: blur(6px);
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.card-surface {
+  position: relative;
+  overflow: hidden;
+}
+
+.scene {
+  perspective: 1000px;
+}
+
+.layer-z1 {
+  transform: translateZ(10px);
+}
+.layer-z2 {
+  transform: translateZ(20px);
+}
+.layer-z3 {
+  transform: translateZ(30px);
+}
+
+@keyframes metallicShine {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shine {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: metallicShine 4s linear infinite;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.inner-border {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.15), inset 0 30px 60px rgba(255,255,255,0.06), inset 0 -30px 60px rgba(0,0,0,0.4);
+  pointer-events: none;
+}
+
+.card-variant-bronze {
+  background: linear-gradient(135deg, #3a2410, #8a5a2b 50%, #4a2d12);
+}
+
+.card-variant-silver {
+  background: linear-gradient(135deg, #1f1f1f, #bbbbbb 50%, #2b2b2b);
+}
+
+.card-variant-diamond {
+  background: linear-gradient(135deg, #0b1020, #00e5ff 40%, #a855f7 70%, #0b1020);
+}
+
+
