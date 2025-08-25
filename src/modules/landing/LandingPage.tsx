@@ -21,7 +21,7 @@ export function LandingPage() {
           WEN BRRR is a Solana meme coin empowering anonymous, fast payments with debit-like crypto cards.
         </p>
         <div className="mt-6 flex justify-center">
-          <ContractBadge address="tba" size="lg" />
+          <ContractBadge address="zFXihzaXTjqRr7WVnY82GJz7XZyPkKJxVXoi5F5pump" size="lg" />
         </div>
         <div className="mt-6 flex justify-center gap-4">
           <Link to="/register" className="px-6 py-3 rounded-md bg-neon-blue/10 text-neon-blue border border-neon-blue hover:bg-neon-blue/20 transition-colors">

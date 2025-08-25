@@ -4,7 +4,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-10 text-sm text-gray-400">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            <p className="text-gray-300">WEN BRRR • Ticker: WENBRRR • CA: tba</p>
+            <p className="text-gray-300">WEN BRRR • Ticker: WENBRRR • CA: zFXihzaXTjqRr7WVnY82GJz7XZyPkKJxVXoi5F5pump</p>
             <p className="text-gray-500 text-xs">Anon spending. No KYC. High risk. DYOR.</p>
           </div>
           <div className="flex gap-4">

@@ -46,7 +46,7 @@ export function WhitepaperPage() {
             <li>Chain: Solana</li>
             <li>Ticker: WENBRRR</li>
             <li>Utility: Card spending fees, rewards, governance stubs</li>
-            <li>CA: tba</li>
+            <li>CA: zFXihzaXTjqRr7WVnY82GJz7XZyPkKJxVXoi5F5pump</li>
           </ul>
           <h3 className="mt-6 text-lg font-semibold text-white">Official Links</h3>
           <ul className="mt-2 list-disc list-inside text-gray-300 space-y-1">

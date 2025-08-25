@@ -9,7 +9,7 @@ export function Navbar() {
           WEN BRRR
         </Link>
         <nav className="flex items-center gap-6 text-sm">
-          <ContractBadge address="tba" />
+          <ContractBadge address="zFXihzaXTjqRr7WVnY82GJz7XZyPkKJxVXoi5F5pump" />
           <NavLink to="/features" className={({ isActive }) => isActive ? 'text-neon-purple' : 'text-gray-300 hover:text-white'}>
             Features
           </NavLink>
